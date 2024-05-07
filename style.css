@@ -1,0 +1,154 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: url(dark-hexagonal-background-with-gradient-color_79603-1409.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.main-box{
+    border-radius: 25px;
+    background-color: rgba(76, 81, 100, 0.103);
+    box-shadow: 5px 5px 5px rgb(64, 125, 220);
+    backdrop-filter: blur(60px);
+    color: rgb(214, 214, 214);
+    margin: 5px;
+    padding: 10px;
+}
+
+p{
+    padding: 2px;
+}
+
+#user_input{
+    margin: 3px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+button{
+
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-size: 13px;
+    background-color: rgba(76, 81, 100, 0.103);
+    color: white;
+    font-size: 15px;
+}
+
+h4{
+    font-size: 14px;
+    padding: 2px;
+    font-weight: 400;
+    margin: 3px;
+} */
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Body styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    /* background: linear-gradient(to right, #ff6f61, #ffc107); New gradient background */
+    color: #f0f0f0; /* Light text color */
+}
+
+/* Main container */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: url(https://www.shutterstock.com/shutterstock/photos/1861318969/display_1500/stock-vector-vector-illustration-neon-future-game-pad-background-1861318969.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Main box styles */
+.main-box {
+    border-radius: 20px; /* Border radius */
+    background-color: rgba(255, 255, 255, 0.15); /* Slightly more transparent white background */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    backdrop-filter: blur(10px); /* Light blur effect */
+    padding: 20px; /* Increased padding */
+    margin: 20px; /* Increased margin */
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 10px; /* Spacing between paragraphs */
+    padding: 5px; /* Padding */
+    color: #e0e0e0; /* Lighter text color */
+}
+
+/* User input field */
+#user_input {
+    margin: 10px 0; /* Margin */
+    padding: 8px;
+    text-align: center;
+    border-radius: 15px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    border: 1px solid #ccc; /* Light gray border */
+    background-color: rgba(255, 255, 255, 0.25); /* Slightly more transparent background */
+    color: #000; /* Dark text color */
+}
+
+/* Button styles */
+button {
+    padding: 8px 20px; /* Padding */
+    border-radius: 15px; /* Rounded corners */
+    background-color: #e91e63; /* New button color: pinkish-red */
+    color: #f0f0f0; /* Light text color */
+    font-size: 16px; /* Font size */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #c2185b; /* Darker shade of pinkish-red on hover */
+}
+
+/* Header styles */
+h4 {
+    font-size: 18px; /* Increased font size */
+    font-weight: 400; /* Font weight */
+    margin-bottom: 10px; /* Margin for spacing */
+    color: #f0f0f0; /* Light text color */
+}
